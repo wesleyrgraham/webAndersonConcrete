@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Family-owned concrete and landscaping company serving Eastern North Carolina for 15 years. View former work and request a free quote." />
+  <title>Anderson's Concrete and Landscaping | Professional Outdoor Services</title>
+
+  <!-- Fonts (matches the Replit vibe: bold headings + clean body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="site-header" data-elevate="1">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Anderson's Concrete and Landscaping home">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span class="brand-text">
+          <span class="brand-name">Anderson's</span>
+          <span class="brand-tag">Concrete &amp; Landscaping</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-icon" aria-hidden="true"></span>
+        <span class="sr-only">Open menu</span>
+        <span class="nav-toggle-label">Menu</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#why">Why Us</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero (full-bleed image + overlay) -->
+    <section id="top" class="hero" aria-label="Intro">
+      <div class="hero-media" role="img" aria-label="Finished patio and landscaped yard"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow">Concrete • Landscaping • Hardscapes</p>
+        <h1>Outdoor upgrades built to last.</h1>
+        <p class="lead">
+          Family-owned and operated, proudly serving Eastern North Carolina for 15 years. We deliver clean concrete work, thoughtful landscaping, and professional project management.
+          Explore former work below, then request a free quote—fast response, clear pricing, no pressure.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#contact">Get Your Free Quote</a>
+          <a class="btn btn-ghost btn-lg" href="#projects">View Former Work</a>
+        </div>
+
+        <ul class="trust">
+          <li><span class="dot" aria-hidden="true"></span>Licensed &amp; insured</li>
+          <li><span class="dot" aria-hidden="true"></span>Quality-focused crews</li>
+          <li><span class="dot" aria-hidden="true"></span>On-time, clean job sites</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Services</h2>
+          <p>Two core specialties—one team. We can handle stand‑alone work or coordinate a full outdoor refresh.</p>
+        </header>
+
+        <div class="grid-2 cards">
+          <article class="card hover-lift">
+            <div class="card-icon" aria-hidden="true">
+              <!-- simple inline icon -->
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 21h18"></path><path d="M7 21V7l5-4 5 4v14"></path><path d="M9 21v-7h6v7"></path>
+              </svg>
+            </div>
+            <h3>Concrete</h3>
+            <p class="muted">Driveways, patios, walkways, pads, steps, and repairs—poured and finished with attention to drainage and longevity.</p>
+            <ul class="bullets">
+              <li>Flatwork &amp; new pours</li>
+              <li>Stamped &amp; decorative options</li>
+              <li>Approaches, curbs, and repairs</li>
+            </ul>
+            <a class="text-link" href="#contact">Request a concrete quote →</a>
+          </article>
+
+          <article class="card hover-lift">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2c3 3 4 6 4 9a4 4 0 0 1-8 0c0-3 1-6 4-9Z"></path>
+                <path d="M6 14c-1.5 1.2-2.5 3-2.5 5.2V22h17v-2.8C20.5 17 19.5 15.2 18 14"></path>
+              </svg>
+            </div>
+            <h3>Landscaping</h3>
+            <p class="muted">Planting, grading, edging, mulch/rock, sod, and hardscape accents—designed to look sharp and stay low‑maintenance.</p>
+            <ul class="bullets">
+              <li>Design &amp; installation</li>
+              <li>Hardscapes &amp; retaining walls</li>
+              <li>Seasonal refresh &amp; cleanup</li>
+            </ul>
+            <a class="text-link" href="#contact">Request a landscaping quote →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Gallery -->
+    <section id="projects" class="section section-soft">
+      <div class="container">
+        <header class="section-head">
+          <h2>Former work</h2>
+          <p>Tap a project to zoom. A few recent examples from concrete, landscaping, and hardscape work.</p>
+        </header>
+
+        <div class="toolbar" role="toolbar" aria-label="Project filters">
+          <button class="chip is-active" type="button" data-filter="all">All</button>
+          <button class="chip" type="button" data-filter="concrete">Concrete</button>
+          <button class="chip" type="button" data-filter="landscaping">Landscaping</button>
+          <button class="chip" type="button" data-filter="hardscape">Hardscape</button>
+        </div>
+
+        <div class="gallery" aria-label="Project photo gallery">
+          <figure class="project" data-category="concrete">
+            <button class="project-btn" type="button"
+              data-lightbox-src="images/stamped_concrete_patio_landscape.png" data-caption="Stamped patio with clean border finish • Concrete">
+              <img src="images/stamped_concrete_patio_landscape.png" alt="Stamped concrete patio with landscaped border" loading="lazy">
+              <span class="project-overlay">
+                <span class="badge">Concrete</span>
+                <span class="project-title">Stamped patio</span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="project" data-category="concrete">
+            <button class="project-btn" type="button"
+              data-lightbox-src="images/commercial_concrete_parking_area.png" data-caption="Commercial concrete parking and curbing • Concrete">
+              <img src="images/commercial_concrete_parking_area.png" alt="Commercial concrete parking area with landscaping islands" loading="lazy">
+              <span class="project-overlay">
+                <span class="badge">Concrete</span>
+                <span class="project-title">Commercial parking</span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="project" data-category="hardscape">
+            <button class="project-btn" type="button"
+              data-lightbox-src="images/terraced_retaining_wall_landscaping.png" data-caption="Terraced retaining wall with planting beds • Hardscape">
+              <img src="images/terraced_retaining_wall_landscaping.png" alt="Terraced retaining wall with vibrant plantings" loading="lazy">
+              <span class="project-overlay">
+                <span class="badge">Hardscape</span>
+                <span class="project-title">Terraced retaining wall</span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="project" data-category="concrete">
+            <button class="project-btn" type="button"
+              data-lightbox-src="images/curved_concrete_driveway_aerial.png" data-caption="Curved driveway with clean edges • Concrete">
+              <img src="images/curved_concrete_driveway_aerial.png" alt="Curved concrete driveway with landscape edging (aerial view)" loading="lazy">
+              <span class="project-overlay">
+                <span class="badge">Concrete</span>
+                <span class="project-title">Curved driveway</span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="project" data-category="landscaping">
+            <button class="project-btn" type="button"
+              data-lightbox-src="images/concrete_walkway_through_garden.png" data-caption="Walkway with garden bed refresh • Landscaping">
+              <img src="images/concrete_walkway_through_garden.png" alt="Concrete walkway through garden beds with seasonal color" loading="lazy">
+              <span class="project-overlay">
+                <span class="badge">Landscaping</span>
+                <span class="project-title">Walkway + planting</span>
+              </span>
+            </button>
+          </figure>
+
+          <figure class="project" data-category="hardscape">
+            <button class="project-btn" type="button"
+              data-lightbox-src="images/backyard_patio_with_fire_pit.png" data-caption="Outdoor living patio with fire feature • Hardscape">
+              <img src="images/backyard_patio_with_fire_pit.png" alt="Backyard patio with fire feature and landscape lighting at dusk" loading="lazy">
+              <span class="project-overlay">
+                <span class="badge">Hardscape</span>
+                <span class="project-title">Patio + fire feature</span>
+              </span>
+            </button>
+          </figure>
+        
+
+        <div class="section-cta-row">
+          <a class="btn btn-primary" href="#contact">Get pricing for a similar project</a>
+          <a class="btn btn-ghost" href="#services">See services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose -->
+    <section id="why" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Why choose Anderson's</h2>
+          <p>Professional results come from clear planning, clean execution, and straightforward communication.</p>
+        </header>
+
+        <div class="grid-3 cards">
+          <article class="card hover-lift">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v4"></path><path d="M7 6h10"></path><path d="M6 22h12"></path><path d="M8 22V10a4 4 0 0 1 8 0v12"></path>
+              </svg>
+            </div>
+            <h3>15 years of experience</h3>
+            <p class="muted">We know what holds up—prep, base, drainage, and finishing details that prevent callbacks.</p>
+          </article>
+
+          <article class="card hover-lift">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 7L10 17l-5-5"></path>
+              </svg>
+            </div>
+            <h3>Quality guarantee</h3>
+            <p class="muted">We don’t rush. You get clean lines, consistent finishes, and a job site that’s left tidy.</p>
+          </article>
+
+          <article class="card hover-lift">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V7l-8-4-8 4v5c0 6 8 10 8 10Z"></path>
+              </svg>
+            </div>
+            <h3>Family-owned &amp; local</h3>
+            <p class="muted">A professional, family-run team serving Eastern North Carolina—clear scope, timelines, and expectations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section section-soft">
+      <div class="container">
+        <header class="section-head">
+          <h2>Customer reviews</h2>
+          <p>Short, real-world feedback from homeowners. Swap these with your own reviews anytime.</p>
+        </header>
+
+        <div class="grid-2 cards">
+          <figure class="card testimonial hover-lift">
+            <div class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <blockquote>
+              “Our patio came out exactly how we pictured it. Clean edges, great finish, and they kept everything organized.”
+            </blockquote>
+            <figcaption>
+              <span class="who">— Jenna M.</span>
+              <span class="what">Patio Pour</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card testimonial hover-lift">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              “Fast estimate, clear timeline, and the crew was respectful. Our front beds look brand new.”
+            </blockquote>
+            <figcaption>
+              <span class="who">— Marcus R.</span>
+              <span class="what">Landscaping Refresh</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card testimonial hover-lift">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              “They handled grading and drainage correctly—no more pooling water. Great communication the whole time.”
+            </blockquote>
+            <figcaption>
+              <span class="who">— Ashley T.</span>
+              <span class="what">Grading + Drainage</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card testimonial hover-lift">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>
+              “Hardscape work was solid. The pavers are tight and level, and the cleanup was thorough.”
+            </blockquote>
+            <figcaption>
+              <span class="who">— Daniel K.</span>
+              <span class="what">Paver Walkway</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Quote -->
+    <section id="contact" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Request a quote</h2>
+          <p>Tell us a bit about your project. We’ll respond within 24 hours on business days.</p>
+        </header>
+
+        <div class="contact-grid">
+          <form class="card form" id="quote-form" action="#" method="post" novalidate>
+            <div class="two-col">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" autocomplete="tel" inputmode="tel" required />
+              </div>
+            </div>
+
+            <div class="two-col">
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label for="service">Service type</label>
+                <select id="service" name="service" required>
+                  <option value="" selected disabled>Select one</option>
+                  <option>Concrete</option>
+                  <option>Landscaping</option>
+                  <option>Both</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="details">Project details</label>
+              <textarea id="details" name="details" rows="5" placeholder="Example: 20x18 patio with steps, access through side gate, would like a simple broom finish." required></textarea>
+            </div>
+
+            <fieldset class="field">
+              <legend>Preferred contact</legend>
+              <div class="radios">
+                <label><input type="radio" name="contact_method" value="Call" checked> Call</label>
+                <label><input type="radio" name="contact_method" value="Text"> Text</label>
+                <label><input type="radio" name="contact_method" value="Email"> Email</label>
+              </div>
+            </fieldset>
+
+            <button class="btn btn-primary btn-lg" type="submit">Send request</button>
+            <p class="fineprint">
+              This form is ready for a static form service (Formspree/Basin). For now it opens an email draft on submit.
+            </p>
+          </form>
+
+          <aside class="card contact-card">
+            <h3>Contact</h3>
+            <p class="muted">Prefer to talk? Call or text. We’ll answer quickly during normal hours.</p>
+
+            <dl class="contact-list">
+              <div>
+                <dt>Phone</dt>
+                <dd><a class="text-link" href="tel:+15555551234">(555) 555‑1234</a></dd>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd><a class="text-link" href="mailto:quotes@andersonsconcrete.com">quotes@andersonsconcrete.com</a></dd>
+              </div>
+              <div>
+                <dt>Hours</dt>
+                <dd>Mon–Fri • 8am–5pm</dd>
+              </div>
+              <div>
+                <dt>Service area</dt>
+                <dd>Your metro area + surrounding suburbs</dd>
+              </div>
+            </dl>
+
+            <div class="note">
+              <strong>Tip:</strong> If you can, include photos and approximate measurements. It helps us quote more accurately.
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <div>
+            <p class="footer-name">Anderson's Concrete &amp; Landscaping</p>
+            <p class="muted">Concrete, landscaping, and hardscape projects—done clean, done right.</p>
+          </div>
+        </div>
+      </div>
+
+      <nav aria-label="Footer links" class="footer-links">
+        <h3 class="footer-h">Quick links</h3>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#why">Why us</a>
+        <a href="#contact">Get a quote</a>
+      </nav>
+
+      <div>
+        <h3 class="footer-h">Contact</h3>
+        <p class="muted"><a class="text-link" href="tel:+15555551234">(555) 555‑1234</a><br>
+        <a class="text-link" href="mailto:quotes@andersonsconcrete.com">quotes@andersonsconcrete.com</a></p>
+      </div>
+
+      <div>
+        <h3 class="footer-h">Service areas</h3>
+        <p class="muted">Proudly serving Eastern North Carolina.</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="muted">© <span id="year"></span> Anderson's Concrete &amp; Landscaping. All rights reserved.</p>
+      <a class="back-top" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Image preview">
+    <button class="lightbox-close" type="button" aria-label="Close preview">✕</button>
+    <figure class="lightbox-figure">
+      <img class="lightbox-img" alt="" />
+      <figcaption class="lightbox-caption"></figcaption>
+    </figure>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
